@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="F6415_index.aspx" title="Home"  description="home to f6415's website">
+      <siteMapNode title="Harjoitukset">
+        <siteMapNode title="LocalDBDemo" url="f6415_LocalDBDemo.aspx"/>
+        <siteMapNode title="DBDemo" url="f6415_DBDemo.aspx"/>
+      </siteMapNode>
+    <siteMapNode title="Viikkotehtavat">
+      <siteMapNode title="Viikkotehtävä 1" url=""/>
+      <siteMapNode title="Viikkotehtävä 2" url=""/>
+    </siteMapNode>
+    </siteMapNode>
+</siteMap>

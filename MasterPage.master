@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+ <link href="demoSite.css" rel="stylesheet" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>IVIorso's Hideout</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+  <form id="form1" runat="server">
+     <div class ="header">
+    
+     
+    </div>
+
+
+   <div class="leftCol">
+       <asp:SiteMapDataSource id="nav1" runat="server" />
+     <asp:TreeView ID="TreeView1" runat="server" DataSourceId="nav1" />
+    </div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
+   
+        </asp:ContentPlaceHolder>
+      <div class ="footer">
+          <h2>Copyright IVIorso</h2>
+      </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home" url="f6415_index.aspx">
+    <siteMapNode title="Services" url="Age.aspx">
+      <siteMapNode title="Training" url="f6415_LocalDBDemo.aspx"/>
+
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
