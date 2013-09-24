@@ -7,7 +7,12 @@
       </siteMapNode>
     <siteMapNode title="Viikkotehtavat">
       <siteMapNode title="Viikkotehtävä 1" url="viikkotehtava1.aspx"/>
-      <siteMapNode title="Viikkotehtävä 2" url=""/>
+      <siteMapNode title="Viikkotehtävä 2" url="viikkotehtava2.aspx"/>
+      <siteMapNode title="Viikkotehtävä 3" url=""/>
+      <siteMapNode title="Viikkotehtävä 4" url=""/>
+      <siteMapNode title="Viikkotehtävä 5" url=""/>
+      <siteMapNode title="Viikkotehtävä 6" url=""/>
+      <siteMapNode title="Viikkotehtävä 7" url=""/>
     </siteMapNode>
     </siteMapNode>
 </siteMap>

@@ -1,17 +1,23 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Valuuttamuunnin.aspx.cs" Inherits="Valuuttamuunnin" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Valuuttamuunnin.aspx.cs" Inherits="Valuuttamuunnin" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    <h1>Tervetuloa! :</h1>
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-    </div>
-    </form>
-</body>
-</html>
+   
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+
+   <h1>Tervetuloa! :</h1>
+        <asp:TextBox ID="kayttajaTextBox" runat="server" Enabled="False"></asp:TextBox><br /> 
+    <br /> <br /> 
+        <asp:TextBox ID="Muunnettava" runat="server" ></asp:TextBox><asp:Label ID="Markat" runat="server" Text="Markkaa"></asp:Label> <asp:Label ID="Virhe" runat="server" ForeColor="Red"></asp:Label>
+    <br /> 
+        <asp:TextBox ID="Muunnettu" runat="server" Enabled="False"></asp:TextBox><asp:Label ID="Euro" runat="server" Text="Euroa (€)"></asp:Label>
+    <br /> 
+
+
+    <asp:Button ID="Muunnin" runat="server" Text="Muunna" OnClick="Muunnin_Click" />
+    <asp:Label ID="lkm" runat="server" Text=""></asp:Label>
+
+</asp:Content>

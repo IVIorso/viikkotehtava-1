@@ -14,9 +14,9 @@
 
    <h1> Tervetuloa, annatko nimesi jotta pääset valuuttamuuntimeen:</h1><br />
         <asp:TextBox ID="kayttajaTextBox" runat="server"></asp:TextBox><br />
-        <asp:Button ID="muunninButton" runat="server" Text="Valuuttamuuntimeen" />
-        <asp:Button ID="sessionButton" runat="server" Text="Tallenna Session" />
-        <asp:Button ID="cookieButton" runat="server" Text="Tallenna Cookie" />
+        <asp:Button ID="muunninButton" runat="server" Text="Parametrinä" OnClientClick="Valuuttamuunnin.aspx" OnClick="muunninButton_Click" />
+        <asp:Button ID="sessionButton" runat="server" Text="Tallenna Session" OnClick="sessionButton_Click" />
+        <asp:Button ID="cookieButton" runat="server" Text="Tallenna Cookie" OnClick="cookieButton_Click" />
 
      
    
