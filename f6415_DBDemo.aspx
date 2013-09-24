@@ -1,16 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="f6415_DBDemo.aspx.cs" Inherits="f6415_DBDemo" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="f6415_DBDemo.aspx.cs" Inherits="f6415_DBDemo" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
     <title>Viinikellari</title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
+   
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+
+   
     <h1>Makoisat Viinit</h1>
-    </div>
+   
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="ID" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display.">
             <Columns>
                 <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
@@ -57,6 +59,8 @@
                 <asp:Parameter Name="ID" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-    </form>
-</body>
-</html>
+      
+    
+
+
+</asp:Content>

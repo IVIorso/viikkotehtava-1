@@ -22,11 +22,14 @@
        <asp:SiteMapDataSource id="nav1" runat="server" />
      <asp:TreeView ID="TreeView1" runat="server" DataSourceId="nav1" />
     </div>
+
+    <div class="main">
     <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
-   
-        </asp:ContentPlaceHolder>
+    
+             </asp:ContentPlaceHolder>
+        </div>
       <div class ="footer">
-          <h2>Copyright IVIorso</h2>
+          <h2>©IVIorso</h2>
       </div>
     </form>
 </body>
