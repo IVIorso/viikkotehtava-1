@@ -13,20 +13,50 @@
 <body>
   <form id="form1" runat="server">
      <div class ="header">
-     <asp:Menu ID="Menu1" runat="server" DataSourceId="nav1" position="Bottom"/>
-     
+         <h1>TAlES OF ESTELIA OFFICAL WEBSITE</h1>
+         <br /><br /><br /><br /><br />
+  
+         
+ 
     </div>
-
+       <div class="nav">
+           <ul class="nav">
+    <li><a href="home.aspx" title="Home">Home</a>
+        <ul>
+            <li><a href="news.aspx" title="News">News</a> </li>
+            <li><a href="trailer.aspx" title="Trailer">Trailer</a></li>
+        </ul>
+    </li>    
+     <li><a href="guide.aspx" title="Guides">Guides</a>
+            <ul>
+            <li><a href="class.aspx" title="Classes">Classes</a></li>
+            <li><a href="profession.aspx" title="Professions">Professions</a></li>
+            <li><a href="attribute.aspx" title="Attributes">Attributes</a></li>
+          </ul>
+    </li>
+     <li><a href="media.aspx" title="Media">Media</a>
+            <ul>
+            <li><a href="screenshot.aspx" title="Screenshots">Screenshots</a></li>
+            <li><a href="wallpaper.aspx" title="Wallpapers">Wallpapers</a></li>
+          </ul>
+    </li>
+    <li><a href="forum.aspx" title="Forums">Forums</a>
+    </li>
+</ul>
+      </div>
 
    <div class="leftCol">
        <asp:SiteMapDataSource id="nav1" runat="server" />
      <asp:TreeView ID="TreeView1" runat="server" DataSourceId="nav1" />
-      
     </div>
-
+     
     <div class="main">
+  
+        <br />
+
+
     <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
-    
+   
              </asp:ContentPlaceHolder>
         </div>
       <div class ="footer">
@@ -35,3 +65,5 @@
     </form>
 </body>
 </html>
+
+  

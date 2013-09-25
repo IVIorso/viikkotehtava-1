@@ -24,13 +24,13 @@
           <siteMapNode title="Professions" url="profession.aspx"/>
           <siteMapNode title="Attributes" url="attribute.aspx"/>
         </siteMapNode>
-        <siteMapNode tittle="Media" url="media.aspx">
-          <siteMapNode tittle="Screenshots" url="screenshot.aspx"/>
-          <siteMapNode tittle ="Wallpapers" url="wallpaper.aspx"/>
+        <siteMapNode title="Media" url="media.aspx">
+          <siteMapNode title="Screenshots" url="screenshot.aspx"/>
+          <siteMapNode title ="Wallpapers" url="wallpaper.aspx"/>
         </siteMapNode>
-        <siteMapNode tittle="Forums" url="forum.aspx">
- 
-        </siteMapNode>
+        <siteMapNode title="Forums" url="forum.aspx"/>
+        
+        
       </siteMapNode>
     </siteMapNode>
 </siteMap>
