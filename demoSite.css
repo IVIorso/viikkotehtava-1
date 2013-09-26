@@ -4,12 +4,13 @@
 body , form  
 {
     font-size: medium;
-    color:white;
+    color:black;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     padding:10px;
     padding-bottom: 60px;
     height:100%;
-    background-color:black;
+    background-image:url('images/sitebg.jpg');
+    background-repeat:repeat-x;
  
     margin: 0;
     
@@ -45,7 +46,8 @@ p
 h1, h2, h3, h4, h5, h6
 {
     font-size: 1.5em;
-    color: white;
+    color: black;
+    font-weight:bolder;
     font-variant: small-caps;
     text-transform: none;
     font-weight: 200;
@@ -103,12 +105,12 @@ first child of the left and right table columns */
 {
   
   
-    height:200px;
+    height:180px;
     margin: 0px;
     padding: 0px;
     border:double;
     width: 100%;
-    background-image:url('images/header.jpg');
+    background-image:url('images/MMBg.png');
     background-repeat:no-repeat;
     background-position:center;
 }
@@ -152,11 +154,10 @@ first child of the left and right table columns */
 .leftCol
 {
     overflow:auto;
-    padding: 6px 0px;
-    margin: 8px 0px 0px 0px;
-    width: 10%;
-    min-height: 100%;
-    height:100%;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 12%;
+    top:90%;
     border:solid;
 }
 
@@ -164,11 +165,10 @@ first child of the left and right table columns */
 
 .footer
 {
-     overflow:auto;
-    position:absolute;
+  
     bottom:0;
     width:100%;
-    color: #4e5766;
+    color: black;
     margin: 0px auto;
     text-align: center;
     height: 60px;
@@ -186,18 +186,20 @@ UL.nav > LI {
     border: 1px solid white;
     position: relative;
     height: 24px; /* height included for IE 7 */
-    background-color:cyan;
+   
 }
 
 UL.nav UL{
     left: -10000px;
-    background-color:cyan;
-    position: absolute;            
+    background-color:forestgreen;
+    position: absolute;   
+    border:solid;         
 }
 
 UL.nav > LI:hover UL{
+    border:solid;
     left: 0;
-    background-color:cyan;
+    background-color:forestgreen;
     top: 24px; /* IE7 has problems without this */
 }
 /* FORM ELEMENTS   

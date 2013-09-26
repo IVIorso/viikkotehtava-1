@@ -13,7 +13,7 @@
 <body>
   <form id="form1" runat="server">
      <div class ="header">
-         <asp:Button ID="Button1" runat="server" Text="Button" />
+       © TeamSlackers  
     
      
     </div>
@@ -30,7 +30,7 @@
              </asp:ContentPlaceHolder>
         </div>
       <div class ="footer">
-          <h2>©IVIorso</h2>
+          <h1>© IVIorso</h1>
       </div>
     </form>
 </body>

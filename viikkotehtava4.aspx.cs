@@ -11,4 +11,11 @@ public partial class viikkotehtava4 : System.Web.UI.Page
     {
 
     }
+    protected void haeAutot_Click(object sender, EventArgs e)
+    {
+        //sidotaan oliokokoelma DataList - kontrolliin
+        var muuvit = Movie.Get3Movies();
+        myDataList.DataSource = muuvit;
+        myDataList.DataBind();
+    }
 }
