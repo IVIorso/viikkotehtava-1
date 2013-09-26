@@ -165,11 +165,13 @@ first child of the left and right table columns */
 
 .footer
 {
-  
-    bottom:0;
-    width:100%;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
     color: black;
-    margin: 0px auto;
+   
     text-align: center;
     height: 60px;
     border:double;

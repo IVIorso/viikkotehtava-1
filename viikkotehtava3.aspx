@@ -11,7 +11,10 @@
     <p>Viikkotehtava 3 toimii kaikilla sivuilla, koska se on tehty suoraan MasterPageen
         En jaksanut rueta tekemään readme.txt tiedostoa, kun tämän voi näinkin tehdä aivan loistavasti. Itselläni on tarkoitus
         tehdä sivusto mobiilipeliäni varten, joten sellaisella teemalla mennään. Tarkoituksena on olla sivulla perus oppaat ja tutorialit peliä ajatellen.
-       <br /> Viikkotehtävä kolme löytyy kokonaisuudessa harjoitustyöstä linkki tässä: <a href="home.aspx"> Home</a>
+       <br /> Viikkotehtävä kolme löytyy kokonaisuudessa harjoitustyöstä linkki tässä: <a href="home.aspx"> Home</a> 
+
+        <br /> <br />
+        Viikkotehtävän 3 treeview löytyy kaikkialla koko sivustossa, mutta dropdown tyylinen linkitys löytyy vain harjoitus työstä.
     </p>
 
 </asp:Content>

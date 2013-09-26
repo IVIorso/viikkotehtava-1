@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Heroes>
+  <Hero>
+    <Name>Elithor</Name>
+    <Class>Priest</Class>
+    <Weapon>Mace</Weapon>
+    <Skill1>Heal</Skill1>
+    <Skill2>Cure</Skill2>
+    <Skill3>Smite</Skill3>
+    <Skill4>Divine Light</Skill4>
+    <Race>Elf</Race>
+  </Hero>
+  <Hero>
+    <Name>Azark</Name>
+    <Class>Warrior</Class>
+    <Weapon>Battleaxe</Weapon>
+    <Skill1>Battlecry</Skill1>
+    <Skill2>Smash</Skill2>
+    <Skill3>Rage</Skill3>
+    <Skill4>Mass Destruction</Skill4>
+    <Race>Dwarf</Race>
+  </Hero>
+  <Hero>
+    <Name>Leo</Name>
+    <Class>Assassin</Class>
+    <Weapon>Dagger</Weapon>
+    <Skill1>Ambush</Skill1>
+    <Skill2>Stab</Skill2>
+    <Skill3>Nightcloak</Skill3>
+    <Skill4>Death from Shadows</Skill4>
+    <Race>Human</Race>
+  </Hero>
+  <Hero>
+    <Name>Anuya</Name>
+    <Class>Hunter</Class>
+    <Weapon>Bow</Weapon>
+    <Skill1>Rapid Shot</Skill1>
+    <Skill2>Hunter's Trap</Skill2>
+    <Skill3>Hunter's Sense</Skill3>
+    <Skill4>Headshot</Skill4>
+    <Race>Elf</Race>
+  </Hero>
+    <Hero>
+      <Name>Nimua</Name>
+      <Class>Paladin</Class>
+      <Weapon>Sword</Weapon>
+      <Skill1>Shield Bash</Skill1>
+      <Skill2>Taunt</Skill2>
+      <Skill3>Saint's Blessing</Skill3>
+      <Skill4>God's Protection</Skill4>
+      <Race>Dwarf</Race>
+    </Hero>
+    <Hero>
+      <Name>Ylsa</Name>
+      <Class>Mage</Class>
+      <Weapon>Staff</Weapon>
+      <Skill1>Fireball</Skill1>
+      <Skill2>Icy Shards</Skill2>
+      <Skill3>Arcane Knowledge</Skill3>
+      <Skill4>Big Bang</Skill4>
+      <Race>Human</Race>
+    </Hero>
+    <Hero>
+      <Name>Dreka</Name>
+      <Class>Necromancer</Class>
+      <Weapon>Skull</Weapon>
+      <Skill1>Summon Demon</Skill1>
+      <Skill2>Deathball</Skill2>
+      <Skill3>Underworlds' Curse</Skill3>
+      <Skill4>The Apocalypse</Skill4>
+      <Race>Human</Race>
+    </Hero>
+    <Hero>
+      <Name>Iriya</Name>
+      <Class>Summoner</Class>
+      <Weapon>Book</Weapon>
+      <Skill1>Summon Spirit</Skill1>
+      <Skill2>Nature's Grasp</Skill2>
+      <Skill3>Nature's Gift</Skill3>
+      <Skill4>Spiritual Invasion</Skill4>
+      <Race>Elf</Race>
+    </Hero>
+    
+  
+</Heroes>

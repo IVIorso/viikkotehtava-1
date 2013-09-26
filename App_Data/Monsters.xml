@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Monsters>
+  <Monster>
+    <Name>Rat</Name>
+    <Level>1</Level>
+    <Health>6</Health>
+    <Skill>Scratch</Skill>
+    <Experience>6</Experience>
+    <Type>Animal</Type>
+  </Monster>
+  <Monster>
+    <Name>Bandit</Name>
+    <Level>6</Level>
+    <Health>36</Health>
+    <Skill>Stab</Skill>
+    <Experience>36</Experience>
+    <Type>Humanoid</Type>
+  </Monster>
+  <Monster>
+    <Name>Wolf</Name>
+    <Level>4</Level>
+    <Health>24</Health>
+    <Skill>Bite</Skill>
+    <Experience>24</Experience>
+    <Type>Animal</Type>
+  </Monster>
+  <Monster>
+    <Name>Zombie</Name>
+    <Level>15</Level>
+    <Health>90</Health>
+    <Skill>Choke</Skill>
+    <Experience>90</Experience>
+    <Type>Undead</Type>
+  </Monster>
+  <Monster>
+    <Name>Dragon</Name>
+    <Level>30</Level>
+    <Health>180</Health>
+    <Skill>Dragon's Breath</Skill>
+    <Experience>180</Experience>
+    <Type>Dragon</Type>
+  </Monster>
+  <Monster>
+    <Name>Goblin</Name>
+    <Level>10</Level>
+    <Health>60</Health>
+    <Skill>Pummel</Skill>
+    <Experience>60</Experience>
+    <Type>Humanoid</Type>
+  </Monster>
+  <Monster>
+    <Name>Orc</Name>
+    <Level>12</Level>
+    <Health>72</Health>
+    <Skill>Smash</Skill>
+    <Experience>72</Experience>
+    <Type>Humanoid</Type>
+  </Monster>
+
+
+
+</Monsters>
