@@ -11,11 +11,6 @@ public partial class Heroes : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        StringReader sr = new StringReader("Heroes.xml");
-        DataSet ds = new DataSet();
-        ds.ReadXml(sr);
-        ds.Merge(ds, true);
-        GridView1.DataSource = ds.Tables[1];
-        GridView1.DataBind();
+ 
     }
 }
