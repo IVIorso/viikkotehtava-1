@@ -17,28 +17,28 @@
   </xsl:template>
   <xsl:template match="Hero">
     <Hero>
-      <xsl:attribute name="name">
+      <xsl:attribute name="Name">
         <xsl:value-of select="Name"/>
       </xsl:attribute>
-      <xsl:attribute name="class">
+      <xsl:attribute name="Class">
         <xsl:value-of select="Class"/>
       </xsl:attribute>
-      <xsl:attribute name="weapon">
+      <xsl:attribute name="Weapon">
         <xsl:value-of select="Weapon"/>
       </xsl:attribute>
-      <xsl:attribute name="skill1">
+      <xsl:attribute name="Skill1">
         <xsl:value-of select="Skill1"/>
       </xsl:attribute>
-      <xsl:attribute name="skill2">
+      <xsl:attribute name="Skill2">
         <xsl:value-of select="Skill2"/>
       </xsl:attribute>
-      <xsl:attribute name="skill3">
+      <xsl:attribute name="Skill3">
         <xsl:value-of select="Skill3"/>
       </xsl:attribute>
-      <xsl:attribute name="skill4">
+      <xsl:attribute name="Skill4">
         <xsl:value-of select="Skill4"/>
       </xsl:attribute>
-      <xsl:attribute name="race">
+      <xsl:attribute name="Race">
         <xsl:value-of select="Race"/>
       </xsl:attribute>
     </Hero>

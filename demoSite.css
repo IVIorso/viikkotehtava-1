@@ -160,6 +160,15 @@ first child of the left and right table columns */
     top:90%;
     border:solid;
 }
+.rightCol
+{
+    left:90%;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 12%;
+    top:90%;
+    border:solid;
+}
 
 
 

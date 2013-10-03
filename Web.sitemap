@@ -24,6 +24,7 @@
           <siteMapNode title="Classes" url="class.aspx"/>
           <siteMapNode title="Professions" url="profession.aspx"/>
           <siteMapNode title="Attributes" url="attribute.aspx"/>
+          <siteMapNode title="Heroes" url="Heroes.aspx"/>
         </siteMapNode>
         <siteMapNode title="Media" url="media.aspx">
           <siteMapNode title="Screenshots" url="screenshot.aspx"/>

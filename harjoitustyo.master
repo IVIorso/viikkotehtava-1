@@ -53,7 +53,9 @@
     <div class="main">
   
         <br />
+    <div class="rightCol">
 
+    </div>
 
     <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
    
