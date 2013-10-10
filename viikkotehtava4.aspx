@@ -15,19 +15,8 @@
    
    <asp:GridView id="autotView" runat="server" 
             AutoGenerateColumns="False" >
-                <Columns>
-                    <templatefield>  
-                <itemtemplate>  
-<checkbox id="chkOrdr" runat="server"></checkbox>  
-</itemtemplate>  
-<HeaderTemplate>  
-<asp:CheckBox ID="chkMainheadr"  
-OnCheckedChanged="chkMainheadr_OnCheckedChanged"  
-AutoPostBack="true" runat="server" />  
-</HeaderTemplate>  
-  
-</templatefield>  
-
+            <Columns>
+                
                     <asp:BoundField DataField="merkki" HeaderText="Merkki"/>
                     <asp:BoundField DataField="malli" HeaderText="Malli"/>
                     <asp:BoundField DataField="vm" HeaderText="Vuosimalli"/>

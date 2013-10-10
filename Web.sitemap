@@ -5,6 +5,7 @@
         <siteMapNode title="LocalDBDemo" url="f6415_LocalDBDemo.aspx"/>
         <siteMapNode title="DBDemo" url="f6415_DBDemo.aspx"/>
         <siteMapNode title="DataSource" url="DataSource.aspx"/>
+        <siteMapNode title="Kurssipalaute" url="kurssipalaute.aspx"/>
       </siteMapNode>
     <siteMapNode title="Viikkotehtavat">
       <siteMapNode title="Viikkotehtävä 1" url="viikkotehtava1.aspx"/>

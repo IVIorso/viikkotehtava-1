@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<palautteet>
+  <palaute>
+    <pvm>20131001</pvm>
+    <tekija>Juice Läskinen</tekija>
+    <opittu>paljon hyvää ja törkeän tärkeää</opittu>
+    <haluanoppia>tietoturvasta tsäbää</haluanoppia>
+    <hyvaa>demot</hyvaa>
+    <parannettavaa>enemmän omaa tekemistä</parannettavaa>
+    <muuta>GitHub ok </muuta>
+  </palaute>
+  <palaute>
+    <pvm>2013103</pvm>
+    <tekija>Esa Vesa</tekija>
+    <opittu>ASP.NET perusteet</opittu>
+    <haluanoppia>autentikointi ja hashaus</haluanoppia>
+    <hyvaa>hyvää</hyvaa>
+    <parannettavaa>parannettavaa</parannettavaa>
+    <muuta>blaah blaah</muuta>
+  </palaute>
+  <palaute>
+    <pvm>2013108</pvm>
+    <tekija>Olli Oppilas</tekija>
+    <opittu>olen oppinnut seuraavaa</opittu>
+    <haluanoppia>haluaisin kyllä ja olen valmis tekemään töitä </haluanoppia>
+    <hyvaa>on ollut</hyvaa>
+    <parannettavaa>eipä</parannettavaa>
+    <muuta>-</muuta>
+  </palaute>
+  <palaute>
+    <pvm>10.10.2013</pvm>
+    <tekija>Juuso Ruuth</tekija>
+    <opittu>Paljon asp.net ohjelmointia ja töiden aloittamista ajoissa.</opittu>
+    <haluanoppia>lisää asp.nettiä, css ja xml lukua ynnämuuta mahdollista</haluanoppia>
+    <hyvaa>Kaikki, kurssilla oppii hyvin kunhan hoitaa hommat</hyvaa>
+    <parannettavaa>ei mielestäni mitään, mutta tämä puolikurssipalaute on parasta. näitä lisää! lisää omaa tekemistä tunneille ja oman pään hajoittamista</parannettavaa>
+    <muuta>Kiitos näistä, jatketaanhan kurssia</muuta>
+  </palaute>
+  <palaute>
+    <pvm>10.10.2013</pvm>
+    <tekija>Juuso Ruuth</tekija>
+    <opittu>Paljon asp.net ohjelmointia ja töiden aloittamista ajoissa.</opittu>
+    <haluanoppia>lisää asp.nettiä, css ja xml lukua ynnämuuta mahdollista</haluanoppia>
+    <hyvaa>Kaikki, kurssilla oppii hyvin kunhan hoitaa hommat</hyvaa>
+    <parannettavaa>ei mielestäni mitään, mutta tämä puolikurssipalaute on parasta. näitä lisää! lisää omaa tekemistä tunneille ja oman pään hajoittamista</parannettavaa>
+    <muuta>Kiitos näistä, jatketaanhan kurssia</muuta>
+  </palaute>
+  <palaute>
+    <pvm></pvm>
+    <tekija></tekija>
+    <opittu></opittu>
+    <haluanoppia></haluanoppia>
+    <hyvaa></hyvaa>
+    <parannettavaa></parannettavaa>
+    <muuta></muuta>
+  </palaute>
+  <palaute>
+    <pvm></pvm>
+    <tekija></tekija>
+    <opittu></opittu>
+    <haluanoppia></haluanoppia>
+    <hyvaa></hyvaa>
+    <parannettavaa></parannettavaa>
+    <muuta></muuta>
+  </palaute>
+</palautteet>
