@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Classes>
+  <Class>
+    <Name>Acolyte</Name>
+    <Description>Magic class that can specialize in either of Mage or Priest. </Description>
+    <Type>Acolyte</Type>
+  </Class>
+  <Class>
+    <Name>Fighter</Name>
+    <Description>Melee class that can specialize in either Warrior or Paladin.</Description>
+  <Type>Fighter</Type>
+  </Class>
+  <Class>
+    <Name>Ritualist</Name>
+    <Description>Magic class that can specialize in either Summoner or Necromancer.</Description>
+  <Type>Ritualist</Type>
+  </Class>
+  <Class>
+    <Name>Rogue</Name>
+    <Description>Melee or Ranged class that can specialize in either Assassin or Hunter.</Description>
+  <Type>Rogue</Type>
+  </Class>
+<Class>
+    <Name>Priest</Name>
+    <Description>Magic class that can specialize either Healing or Holy damage</Description>
+<Type>Acolyte</Type>
+  </Class>
+<Class>
+    <Name>Mage</Name>
+    <Description>Magic class that can specialize in either Fire or Frost damage</Description>
+<Type>Acolyte</Type>
+  </Class>
+<Class>
+    <Name>Warrior</Name>
+    <Description>Melee class that can specialize in either Damage or Tanking</Description>
+  
+<Type>Fighter</Type>
+  </Class>
+<Class>
+    <Name>Paladin</Name>
+    <Description>Melee class that can specialize in either Buffing or Tanking</Description>
+  <Type>Fighter</Type>
+  </Class>
+<Class>
+    <Name>Summoner</Name>
+    <Description>Magic class that can specialize in either Spirits or Nature magic</Description>
+  <Type>Ritualist</Type>
+  </Class>
+<Class>
+    <Name>Necromancer</Name>
+    <Description>Magic class that can specialize in either Demons or Dark magic</Description>
+  <Type>Ritualist</Type>
+  </Class>
+<Class>
+    <Name>Assassin</Name>
+    <Description>Melee class that can specialize in either Melee damage or Poison damage</Description>
+  <Type>Rogue</Type>
+  </Class>
+<Class>
+    <Name>Hunter</Name>
+    <Description>Ranged class that can specialize in either Traps or Ranged damage</Description>
+  <Type>Rogue</Type>
+  </Class>
+</Classes>
