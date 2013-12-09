@@ -15,9 +15,6 @@
      <div class ="header">
          <h1>TAlES OF ESTELIA OFFICAL WEBSITE</h1>
          <br /><br /><br /><br /><br />
-  
-         
- 
     </div>
        <div class="nav">
            <ul class="nav">
@@ -34,35 +31,34 @@
             <li><a href="attribute.aspx" title="Attributes">Attributes</a></li>
           </ul>
     </li>
-     <li><a href="media.aspx" title="Media">Media</a>
+     <li><a  title="Media">Media</a>
             <ul>
             <li><a href="screenshot.aspx" title="Screenshots">Screenshots</a></li>
-            <li><a href="wallpaper.aspx" title="Wallpapers">Wallpapers</a></li>
+            
           </ul>
     </li>
-    <li><a href="forum.aspx" title="Forums">Forums</a>
+    <li><a href="Gamez.aspx" title="Lotto">Lotto</a>
     </li>
 </ul>
       </div>
 
-   <div class="leftCol">
+    <div class="leftCol">
        <asp:SiteMapDataSource id="nav1" runat="server" />
      <asp:TreeView ID="TreeView1" runat="server" DataSourceId="nav1" />
     </div>
+    
+    
+    
      
     <div class="main">
   
-        <br />
-    <div class="rightCol">
-
-    </div>
-
-    <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
+        
    
+      <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
              </asp:ContentPlaceHolder>
-        </div>
+       </div>
       <div class ="footer">
-          <h2>©IVIorso</h2>
+          <h2>©Team Slackers</h2>
       </div>
     </form>
 </body>

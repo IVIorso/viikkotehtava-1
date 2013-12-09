@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-  <siteMapNode url="F6415_index.aspx" title="Home"  description="home to f6415's website">
-    <siteMapNode title="Harjoitukset">
-      <siteMapNode title="LocalDBDemo" url="f6415_LocalDBDemo.aspx"/>
-      <siteMapNode title="DBDemo" url="f6415_DBDemo.aspx"/>
-    </siteMapNode>
-    <siteMapNode title="Viikkotehtavat">
-      <siteMapNode title="Viikkotehtävä 1" url="viikkotehtava1.aspx"/>
-      <siteMapNode title="Viikkotehtävä 2" url="viikkotehtava2.aspx"/>
-      <siteMapNode title="Viikkotehtävä 3" url="viikkotehtava3.aspx"/>
-      <siteMapNode title="Viikkotehtävä 4" url="viikkotehtava4.aspx"/>
-      <siteMapNode title="Viikkotehtävä 5" url="viikkotehtava5.aspx"/>
-      <siteMapNode title="Viikkotehtävä 6" url=""/>
-      <siteMapNode title="Viikkotehtävä 7" url=""/>
-    </siteMapNode>
-    <siteMapNode title="Harjoitustyö">
+     <siteMapNode title="Harjoitustyö">
       <siteMapNode title="Home" url="Home.aspx">
         <siteMapNode title="News" url="news.aspx"/>
         <siteMapNode title="Trailer" url="trailer.aspx"/>
@@ -32,5 +18,5 @@
 
       </siteMapNode>
     </siteMapNode>
-  </siteMapNode>
+ 
 </siteMap>

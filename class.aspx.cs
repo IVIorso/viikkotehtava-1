@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Linq;
 
 public partial class _class : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
 
-
+        string classes;
+        classes  = MapPath(ConfigurationManager.AppSettings["ClassesPath"]);
         DirectoryInfo dir = new DirectoryInfo(MapPath("ClassImg"));
         FileInfo[] files = dir.GetFiles();
         ArrayList listItems = new ArrayList();
@@ -28,7 +31,7 @@ public partial class _class : System.Web.UI.Page
        
        
         DataSet dataSet = new DataSet();
-        dataSet.ReadXml("D:/F6415/viikkotehtava-1/App_Data/Classes.xml");
+        dataSet.ReadXml(classes);
        
         dlist1.DataSource = dataSet;
         dlist1.DataBind();
