@@ -1,12 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="Palautteet.xslt"?>
 <palautteet>
   <palaute>
     <pvm>20131001</pvm>
-    <tekija>Juice Läskinen</tekija>
-    <opittu>paljon hyvää ja törkeän tärkeää</opittu>
-    <haluanoppia>tietoturvasta tsäbää</haluanoppia>
+    <tekija>Juice L�skinen</tekija>
+    <opittu>paljon hyv�� ja t�rke�n t�rke��</opittu>
+    <haluanoppia>tietoturvasta ts�b��</haluanoppia>
     <hyvaa>demot</hyvaa>
-    <parannettavaa>enemmän omaa tekemistä</parannettavaa>
+    <parannettavaa>enemm�n omaa tekemist�</parannettavaa>
     <muuta>GitHub ok </muuta>
   </palaute>
   <palaute>
@@ -14,7 +15,7 @@
     <tekija>Esa Vesa</tekija>
     <opittu>ASP.NET perusteet</opittu>
     <haluanoppia>autentikointi ja hashaus</haluanoppia>
-    <hyvaa>hyvää</hyvaa>
+    <hyvaa>hyv��</hyvaa>
     <parannettavaa>parannettavaa</parannettavaa>
     <muuta>blaah blaah</muuta>
   </palaute>
@@ -22,45 +23,27 @@
     <pvm>2013108</pvm>
     <tekija>Olli Oppilas</tekija>
     <opittu>olen oppinnut seuraavaa</opittu>
-    <haluanoppia>haluaisin kyllä ja olen valmis tekemään töitä </haluanoppia>
+    <haluanoppia>haluaisin kyll� ja olen valmis tekem��n t�it� </haluanoppia>
     <hyvaa>on ollut</hyvaa>
-    <parannettavaa>eipä</parannettavaa>
+    <parannettavaa>eip�</parannettavaa>
     <muuta>-</muuta>
   </palaute>
   <palaute>
-    <pvm>10.10.2013</pvm>
-    <tekija>Juuso Ruuth</tekija>
-    <opittu>Paljon asp.net ohjelmointia ja töiden aloittamista ajoissa.</opittu>
-    <haluanoppia>lisää asp.nettiä, css ja xml lukua ynnämuuta mahdollista</haluanoppia>
-    <hyvaa>Kaikki, kurssilla oppii hyvin kunhan hoitaa hommat</hyvaa>
-    <parannettavaa>ei mielestäni mitään, mutta tämä puolikurssipalaute on parasta. näitä lisää! lisää omaa tekemistä tunneille ja oman pään hajoittamista</parannettavaa>
-    <muuta>Kiitos näistä, jatketaanhan kurssia</muuta>
+    <pvm>20131010</pvm>
+    <tekija>Jaakko 3</tekija>
+    <opittu>paljooooon</opittu>
+    <haluanoppia>lisss�����</haluanoppia>
+    <hyvaa>on</hyvaa>
+    <parannettavaa>ei</parannettavaa>
+    <muuta>juu</muuta>
   </palaute>
   <palaute>
-    <pvm>10.10.2013</pvm>
-    <tekija>Juuso Ruuth</tekija>
-    <opittu>Paljon asp.net ohjelmointia ja töiden aloittamista ajoissa.</opittu>
-    <haluanoppia>lisää asp.nettiä, css ja xml lukua ynnämuuta mahdollista</haluanoppia>
-    <hyvaa>Kaikki, kurssilla oppii hyvin kunhan hoitaa hommat</hyvaa>
-    <parannettavaa>ei mielestäni mitään, mutta tämä puolikurssipalaute on parasta. näitä lisää! lisää omaa tekemistä tunneille ja oman pään hajoittamista</parannettavaa>
-    <muuta>Kiitos näistä, jatketaanhan kurssia</muuta>
-  </palaute>
-  <palaute>
-    <pvm></pvm>
-    <tekija></tekija>
-    <opittu></opittu>
-    <haluanoppia></haluanoppia>
-    <hyvaa></hyvaa>
-    <parannettavaa></parannettavaa>
-    <muuta></muuta>
-  </palaute>
-  <palaute>
-    <pvm></pvm>
-    <tekija></tekija>
-    <opittu></opittu>
-    <haluanoppia></haluanoppia>
-    <hyvaa></hyvaa>
-    <parannettavaa></parannettavaa>
-    <muuta></muuta>
+    <pvm>20131010</pvm>
+    <tekija>Jesse Jasu</tekija>
+    <opittu>olen</opittu>
+    <haluanoppia>en tiedo</haluanoppia>
+    <hyvaa>on ollut</hyvaa>
+    <parannettavaa>kyll� ei</parannettavaa>
+    <muuta>kyll�</muuta>
   </palaute>
 </palautteet>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="palautteet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="palaute" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pvm" type="xs:unsignedInt" />
+              <xs:element name="tekija" type="xs:string" />
+              <xs:element name="opittu" type="xs:string" />
+              <xs:element name="haluanoppia" type="xs:string" />
+              <xs:element name="hyvaa" type="xs:string" />
+              <xs:element name="parannettavaa" type="xs:string" />
+              <xs:element name="muuta" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
